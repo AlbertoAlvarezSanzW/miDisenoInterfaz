@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">miDisenoInterfaz</string>
+    <string name="boton_vertical_1">Botón vertical 1</string>
+    <string name="boton_vertical_3">Botón vertical 3</string>
+    <string name="boton_1">Boton 1</string>
+    <string name="boton_3">Boton 3</string>
 </resources>

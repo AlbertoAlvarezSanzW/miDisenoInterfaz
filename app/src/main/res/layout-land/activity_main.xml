@@ -11,27 +11,24 @@
 
     >
 
-
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Button texto" />
+        android:layout_weight="1"
+        android:text="@string/boton_1" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="40dp"
-        android:text="@string/app_name" />
+        android:layout_weight="1"
+        android:text="@string/boton_1" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="end"
-        android:text="Button" />
-
-
+        android:layout_weight="3"
+        android:text="@string/boton_3" />
 </LinearLayout>

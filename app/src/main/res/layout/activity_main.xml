@@ -4,34 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0F3A2F"
+    android:background="#38D1E4"
     android:orientation="vertical"
-
-    tools:context=".MainActivity"
-
-    >
-
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Button texto" />
+        android:text="@string/boton_vertical_1"
+
+        />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="40dp"
-        android:text="@string/app_name" />
+        android:text="@string/boton_vertical_1" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:id="@+id/Button4"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="end"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:text="@string/boton_vertical_3" />
 
 
 </LinearLayout>
